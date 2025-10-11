@@ -1,7 +1,8 @@
-baseurl: '/'
-permalink: pretty
-title: 'Idea Tree'
-url: 'https://neiljohnson1306.github.io'
+
+
+
+url: "https://neiljohnson1306.github.io"
+baseurl: "/ideatree" # only if your repo is NOT named neiljohnson1306.github.io
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
