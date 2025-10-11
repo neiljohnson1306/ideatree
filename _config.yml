@@ -1,7 +1,7 @@
 title: "Idea Tree"
 description: "A simple website built with GitHub Pages and Jekyll"
 
-baseurl: "/ideatree"  # Keep this if your repo is named 'ideatree'
+baseurl: "/"  # Keep this if your repo is named 'ideatree'
 permalink: pretty
 theme: jekyll-theme-primer  # GitHub Pages-supported theme
 
