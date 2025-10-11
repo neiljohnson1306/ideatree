@@ -1,18 +1,20 @@
-
-
-
+title: "Idea Tree"
+description: "A simple website built with GitHub Pages and Jekyll"
 url: "https://neiljohnson1306.github.io"
-baseurl: "/ideatree" # only if your repo is NOT named neiljohnson1306.github.io
+baseurl: "/ideatree"  # Keep this if your repo is named 'ideatree'
+permalink: pretty
+theme: jekyll-theme-primer  # Add this if you're using a GitHub Pages-supported theme
 
+# Optional site variables – make sure your layout or includes handle these
 logo:
-  mobile: "images/logo/logo-mobile.svg"
+  mobile: "/images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.svg"
+  desktop: "/images/logo/logo.svg"
   desktop_height: "32px"
   desktop_width: "120px"
 
-home: 
+home:
   limit_services: 6
 
 collections:
@@ -35,7 +37,7 @@ defaults:
       layout: "team"
 
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed  # Options: nested, expanded, compact, compressed
 
 plugins:
   - jekyll-environment-variables
