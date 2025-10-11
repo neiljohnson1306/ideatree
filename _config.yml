@@ -3,10 +3,13 @@ description: "A simple website built with GitHub Pages and Jekyll"
 url: "https://neiljohnson1306.github.io"
 baseurl: "/ideatree"  # Keep this if your repo is named 'ideatree'
 permalink: pretty
-theme: jekyll-theme-primer  # Add this if you're using a GitHub Pages-supported theme
+theme: jekyll-theme-primer  # GitHub Pages-supported theme
 
-# Optional site variables – make sure your layout or includes handle these
-logo:
+# ✅ Fix: jekyll-seo-tag expects 'logo' to be a string (URL)
+logo: "/images/logo/logo.svg"
+
+# Optional: Keep your detailed logo info under a different key
+logo_variants:
   mobile: "/images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
