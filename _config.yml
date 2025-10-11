@@ -1,6 +1,7 @@
-baseurl: '/ideatree'
+baseurl: '/'
 permalink: pretty
 title: 'Idea Tree'
+url: 'https://neiljohnson1306.github.io'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
