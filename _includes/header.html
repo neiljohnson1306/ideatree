@@ -5,7 +5,10 @@
       <span class="site-title">{{ site.title }}</span>
     </a>
 
-    <nav class="main-nav">
+    <!-- Hamburger for mobile -->
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+    <nav class="main-nav" id="nav-menu">
       <a href="{{ "/" | relative_url }}">Home</a>
       <a href="{{ "/about/" | relative_url }}">About</a>
       <a href="{{ "/services/" | relative_url }}">Services</a>
@@ -14,3 +17,10 @@
     </nav>
   </div>
 </header>
+
+<!-- Mobile menu toggle script -->
+<script>
+function toggleMenu() {
+  document.getElementById('nav-menu').classList.toggle('show');
+}
+</script>
