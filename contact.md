@@ -15,7 +15,7 @@ We’d love to hear about your project. Please reach out:
 - Phone: +44 20 7946 0000
 - Or fill out the contact form below and we’ll get back to you.
 
-<form action="https://formspree.io/f/{your-id}" method="POST" class="contact-form">
+<form action="https://formspree.io/f/mqayyrry" method="POST" class="contact-form">
   <label>
     Name
     <input type="text" name="name" required />
@@ -31,4 +31,3 @@ We’d love to hear about your project. Please reach out:
   <button class="btn" type="submit">Send Message</button>
 </form>
 
-> Replace `https://formspree.io/f/{your-id}` with your Formspree endpoint, or integrate your preferred form handler.
