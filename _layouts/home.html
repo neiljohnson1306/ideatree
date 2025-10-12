@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="hero-content">
+    {{ content }}
+  </div>
+  <div class="hero-illustration">
+    {% if page.intro_image %}
+      <img src="{{ page.intro_image | relative_url }}" alt="Intro illustration">
+    {% endif %}
+  </div>
+</section>
