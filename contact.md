@@ -11,8 +11,8 @@ intro_image_hide_on_mobile: false
 
 We’d love to hear about your project. Please reach out:
 
-- Email: hello@ideatree.example
-- Phone: +44 20 7946 0000 (sample)
+- Email: neil.johnson@ideatree.uk
+- Phone: +44 20 7946 0000
 - Or fill out the contact form below and we’ll get back to you.
 
 <form action="https://formspree.io/f/{your-id}" method="POST" class="contact-form">
