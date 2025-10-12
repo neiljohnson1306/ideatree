@@ -1,7 +1,7 @@
 title: "Idea Tree"
 description: "A digital consultancy helping businesses grow through strategy, design, and technology."
 url: "https://neiljohnson1306.github.io"
-baseurl: "/ideatree"
+baseurl: "/"
 permalink: pretty
 theme: jekyll-theme-primer
 
